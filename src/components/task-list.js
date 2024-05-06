@@ -104,7 +104,11 @@ const TaskList = () => {
         label="Search Tasks"
         variant="outlined"
         size="small"
-        style={{ margin: "auto auto", maxWidth: "170px" }}
+        style={{
+          margin: "auto auto",
+          maxWidth: "200px",
+          backgroundColor: "snow",
+        }}
         value={searchQuery}
         onChange={handleSearchChange}
       />
