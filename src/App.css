@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding-top: 50px;
+}
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 0px 80px;
+  gap: 24px;
+}
+.add-icon {
+  color: green;
+  cursor: pointer;
+  width: 24px;
+  margin: auto;
+}
+
+.close-icon {
+  color: red;
+  cursor: pointer;
+  width: 24px;
+  margin: auto;
+}
+.add-form {
+  margin: auto;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-fields {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  padding: 12px 16px;
+  position: relative;
+  grid-column: "span 1 / span 1";
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 5px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: burlywood;
+  margin-top: 17px;
+  padding: 0 auto;
+  overflow-x: hidden;
+}
+
+.value {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #282c34;
+  text-wrap: balance;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
+
+.edit-icon {
+  color: blue;
+  cursor: pointer;
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  column-gap: 4px;
+  height: 24px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
